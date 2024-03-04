@@ -47,7 +47,8 @@ a {
 }
 
 a:hover {
-  background-color: #8282821e;
+  background-color: #ed24ffc2;
+  color: #4a0c50;
   border-radius: 6px;
 }
 
