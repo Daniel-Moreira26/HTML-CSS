@@ -1,0 +1,80 @@
+html {
+  margin: 0px;
+}
+
+body {
+  margin: 100px 300px 0px 300px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  font-family: mulish;
+  font-size: 18px;
+  padding: 20px;
+  color: #1f1534;
+  text-decoration: none;
+}
+
+header a:hover {
+  font-weight: bold;
+}
+
+main {
+  margin-top: 80px;
+  display: flex;
+  margin-left: 14px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h1 {
+  margin-top: 109px;
+  font-family: mulish;
+  font-size: 59px;
+}
+
+main p {
+  margin-top: 40px;
+  font-family: open sans;
+  line-height: 30px;
+  color: #7d7987;
+}
+
+main span {
+  color: #89c5cc;
+}
+
+button {
+  margin-top: 40px;
+  display: flex;
+  padding: 16px 40px;
+  align-items: center;
+  background-color: #69b99d;
+  color: white;
+  border: none;
+  border-radius: 4px;
+}
+
+button a {
+  font-family: dm sans;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  margin-left: 4px;
+}
+
+footer {
+  margin-top: 150px;
+  text-align: center;
+  font-family: open sans;
+}
+
+#decoration {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+}
