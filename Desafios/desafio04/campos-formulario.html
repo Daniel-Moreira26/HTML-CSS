@@ -30,45 +30,65 @@
     </fieldset>
 
     <form action="">
-      <label for="titulo">Título do evento</label>
-      <input type="text" name="titulo" id="titulo">
+      <div class="input-wrapper">
+        <label for="titulo">Título do evento <span>(minimo 8 caracteres)</span></label>
+        <input type="text" id="titulo">
+      </div>
 
-      <label for="evento">Link do evento</label>
-      <input type="text" name="evento" id="evento">
+      <div class="input-wrapper">
+        <label for="evento">Link do evento</label>
+        <input type="text" name="evento" id="evento">
+      </div>
 
-      <label for="informacoes">Informações extras</label>
-      <textarea name="informacoes" id="informacoes" cols="50" rows="4"></textarea>
+      <div class="input-wrapper">
+        <label for="informacoes">Informações extras</label>
+        <textarea name="informacoes" id="informacoes" cols="50" rows="4"></textarea>
+      </div>
 
-      <label for="categoria">Categoria</label>
-      <select name="categoria" id="categoria">
-        <option value="categoria1">categoria 01</option>
-        <option value="categoria2">categoria 02</option>
-        <option value="categoria3">categoria 03</option>
-      </select>
+      <div class="input-wrapper">
+        <label for="categoria">Categoria</label>
+        <select name="categoria" id="categoria">
+          <option value="categoria1">categoria 01</option>
+          <option value="categoria2">categoria 02</option>
+          <option value="categoria3">categoria 03</option>
+        </select>
+      </div>
 
       <h2>Privacidade</h2>
       
 
-      <label for="email">E-mail do administrador</label>
-      <input type="email" name="email" id="email">
+      <div class="input-wrapper">
+        <label for="email">E-mail do administrador</label>
+        <input type="email" name="email" id="email">
+      </div>
 
-      <label for="senha">Senha de acesso para os participantes</label>
-      <input type="password" name="senha" id="senha">
+      <div class="input-wrapper">
+        <label for="senha">Senha de acesso para os participantes</label>
+        <input type="password" name="senha" id="senha">
+      </div>
 
-      <input type="checkbox" name="evento-privado" id="evento-privado">
-      <label for="evento-privado">Evento privado</label>
+      <div class="input-wrapper">
+        <input type="checkbox" name="evento-privado" id="evento-privado">
+        <label for="evento-privado">Evento privado</label>
+      </div>
 
       <h2>Dia e hora</h2>
       
 
-      <label for="data">Data</label>
-      <input type="date" name="data" id="data">
+      <div class="input-wrapper">
+        <label for="data">Data</label>
+        <input type="date" name="data" id="data">
+      </div>
 
-      <label for="hora">Das</label>
-      <input type="time" name="hora" id="hora">
+      <div class="input-wrapper">
+        <label for="hora">Das</label>
+        <input type="time" name="hora" id="hora">
+      </div>
 
-      <label for="hora-ate">até</label>
-      <input type="time" name="hora-ate" id="hora-ate">
+      <div class="input-wrapper">
+        <label for="hora-ate">até</label>
+        <input type="time" name="hora-ate" id="hora-ate">
+      </div>
 
       <input type="submit" value="Salvar evento">
     </form>

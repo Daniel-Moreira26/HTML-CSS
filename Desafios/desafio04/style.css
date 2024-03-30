@@ -1,5 +1,13 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
 h1 {
   margin-top: 0px;
+  margin-bottom: 24px;
+
   font-family: "Archivo", sans-serif;
   font-weight: bold;
   font-size: 36px;
@@ -8,15 +16,16 @@ h1 {
 }
 
 body {
-  font-family: "Poppins", sans-serif;
-  margin: 0px;
-
   background-color: #e5e5e5;
+}
+
+body, input, button, textarea, select {
+  font-family: "Poppins", sans-serif;
 }
 
 header {
   background-color: black;
-  padding: 70px 0px 140px 0px;
+  padding: 70px 0px 140px 70px;
 }
 
 header div {
@@ -59,4 +68,38 @@ legend {
   border-bottom: 1px solid rgba(0, 0, 0, 0.212);
   padding-bottom: 16px;
   width: 100%;
+}
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-wrapper label {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 8px;
+
+  color: #4e4958;
+}
+
+.input-wrapper label span {
+  margin-left: 12px;
+  color: #c1bccc;
+}
+
+.input-wrapper input {
+  background: #fafafc;
+
+  border: 1px solid #e6e6f0;
+  box-sizing: border-box;
+  border-radius: 8px;
+
+  height: 56px;
+  padding: 0 24px;
+
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #c1bccc;
 }
