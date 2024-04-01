@@ -1,105 +1,46 @@
 * {
   margin: 0px;
   padding: 0px;
-  box-sizing: border-box;
-}
-
-h1 {
-  margin-top: 0px;
-  margin-bottom: 24px;
-
-  font-family: "Archivo", sans-serif;
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 42px;
-  color: white;
+  font-family: sans-serif;
 }
 
 body {
-  background-color: #e5e5e5;
-}
-
-body, input, button, textarea, select {
-  font-family: "Poppins", sans-serif;
+  background-color: rgb(219, 219, 219);
 }
 
 header {
   background-color: black;
-  padding: 70px 0px 140px 70px;
+  height: 340px;
 }
 
-header div {
-  max-width: 1080px;
-  margin: auto;
+header h1 {
+  color: whitesmoke;
+  margin-bottom: 24px;
+  font-size: 2.1em;
 }
 
 header p {
-  margin-left: 4px;
-  line-height: 26px;
-  color: rgb(91, 223, 179);
+  color: rgb(83, 180, 148);
 }
 
-main {
-  background: linear-gradient(
-    to bottom,
-    rgb(238, 238, 238),
-    rgb(255, 255, 255)
-  );
+header div {
+  max-width: 1180px;
+  margin: auto;
+  padding: 80px 0px 20px 110px;
+}
 
-  max-width: 1000px;
+form {
+  background: rgb(243, 241, 241);
+  height: 500px;
+
+  max-width: 958px;
+  margin: auto;
+
   position: relative;
   top: -80px;
-  margin: auto;
-  padding: 64px;
-  border-radius: 8px;
+  padding: 60px;
 }
 
 fieldset {
   border: none;
-}
-
-legend {
-  font-family: "Archivo", sans-serif;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 24px;
-  line-height: 34px;
-
-  border-bottom: 1px solid rgba(0, 0, 0, 0.212);
-  padding-bottom: 16px;
-  width: 100%;
-}
-
-.input-wrapper {
-  display: flex;
-  flex-direction: column;
-}
-
-.input-wrapper label {
-  font-size: 14px;
-  line-height: 24px;
-  margin-bottom: 8px;
-
-  color: #4e4958;
-}
-
-.input-wrapper label span {
-  margin-left: 12px;
-  color: #c1bccc;
-}
-
-.input-wrapper input {
-  background: #fafafc;
-
-  border: 1px solid #e6e6f0;
-  box-sizing: border-box;
-  border-radius: 8px;
-
-  height: 56px;
-  padding: 0 24px;
-
-  font-size: 16px;
-  line-height: 26px;
-
-  color: #c1bccc;
 }
