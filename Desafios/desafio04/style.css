@@ -37,18 +37,24 @@ form {
   background: #fafafc;
   border-radius: 8px;
 
-  height: 500px;
+  min-height: 500px;
   max-width: 740px;
   margin: auto;
 
   position: relative;
   top: -80px;
   padding: 60px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
 }
 
 fieldset {
   border: none;
+}
 
+.fieldset-wrapper {
   display: flex;
   flex-direction: column;
   gap: 24px;
@@ -86,13 +92,33 @@ fieldset legend {
   font-size: 12px;
   line-height: 20px;
 
-  color: #c1bccc;
+  color: #6c6a71;
 }
 
-.input-wrapper input {
+.input-wrapper input,
+textarea,
+select {
   background: #fafafc;
 
-  border: 1px solid #e6e6f0;
+  padding: 0 24px;
+
+  border: 1px solid #6c6a71;
   border-radius: 8px;
   height: 56px;
+
+  color: #6c6a71;
+}
+
+.input-wrapper textarea {
+  height: 168px;
+  padding: 24px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 20px;
+}
+
+.col-3 > div:nth-child(1) {
+  width: 100%;
 }
