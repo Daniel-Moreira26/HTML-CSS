@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -92,6 +93,5 @@ fieldset legend {
   background: #fafafc;
 
   border: 1px solid #e6e6f0;
-  box-sizing: border-box;
   border-radius: 8px;
 }
