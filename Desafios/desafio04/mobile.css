@@ -1,0 +1,13 @@
+@media only screen and (max-width: 700px) {
+  header div {
+    padding: 74px 50px 40px 30px; /* Ajuste o padding conforme necessário */
+  }
+}
+
+@media screen and (max-width: 568px) {
+  .col-3 {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+  }
+}
