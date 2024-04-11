@@ -1,0 +1,47 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+header {
+  height: 465px;
+  background-color: #293241;
+}
+
+header h1, p {
+  color: #ffff;
+}
+
+header h1 {
+  font-family: "Staatliches", sans-serif;
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  padding-bottom: 4px;
+}
+
+header p {
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 20px;
+}
+
+header div {
+  max-width: 750px;
+  padding-top: 100px;
+  margin: auto;
+  text-align: center;
+}
+
+form {
+  max-width: 750px;
+  margin: auto;
+
+  position: relative;
+  
+}
+
+.head {
+  height: 133px;
+}

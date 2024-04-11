@@ -72,9 +72,7 @@ fieldset legend {
 
 .input-group {
   display: flex;
-  flex-direction: row;
   gap: 14px;
-
 }
 
 label {
