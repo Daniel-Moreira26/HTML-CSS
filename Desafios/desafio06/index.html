@@ -29,9 +29,45 @@
       <legend>Informações Pessoais</legend>
     </div>
 
-    <fieldset>
+    <div class="formulario"> 
+      <fieldset>
+        <div class="form-group">
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name">
+          </div>
+          <div>
+            <label for="forname">Sobrenome</label>
+            <input type="text" id="forname">
+          </div>
+        </div>
+        <div>
+          <label for="email">Email <span>(digite um email válido)</span></label>
+          <input type="email" id="email">
+        </div>
+      </fieldset>
 
-    </fieldset>
+      <fieldset>
+        <legend>Informações do Mentor</legend>
+        <div class="mentor-group">
+          <label for="mentor">Selecione quem foi o seu mentor:</label>
+          <select id="mentor">
+            <option value="mentor">Andre C.</option>
+            <option value="mentor">Júlio M.</option>
+          </select>
+        </div>
+
+        <div>
+          <label for="feedback-mentor">Feedback sobre o mentor</label>
+          <textarea id="feedback-mentor" cols="30" rows="10"></textarea>
+        </div>
+
+        <div class="check">
+          <input type="checkbox" id="check">
+          <label for="check">Todas as minhas dúvidas foram esclarecidas durante a mentoria.</label>
+        </div>
+      </fieldset>
+    </div>
   </form>
 </body>
 </html>
