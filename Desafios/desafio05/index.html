@@ -11,34 +11,96 @@
 <body>
   <header>
     <div>
-      <h1>Mentoria</h1>
+      <h1>MENTORIA</h1>
       <p>Preencha o formulário abaixo para <br> agendar a sua mentoria</p>
     </div>
   </header>
 
-  <form>
+  <form id="my-form">
     <fieldset>
-      <legend>Informações Pessoais</legend>
+      <div class="form-group">
+        <legend>Informações Pessoais</legend>
 
-      <div>
-        <label for="name">Nome</label>
-        <input type="text" id="name">
+        <div class="input-group">
+          <div>
+            <label for="name">Nome</label>
+            <input type="text" id="name">
+          </div>
+          <div>
+            <label for="forname">Sobrenome</label>
+            <input type="text" id="forname">
+          </div>
+        </div>
 
-        <label for="forname">Sobrenome</label>
-        <input type="text" id="forname">
+        <div class="form-wrapper">
+          <label for="email">Email <span>(digite um email válido)</span></label>
+          <input type="email" id="email">
+        </div>
+
+        <div class="form-wrapper">
+          <label for="password">Senha <span>(mínimo de 6 caracteres)</span></label>
+          <input type="password" id="password">
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="form-group">
+        <legend>Informações do Mentor</legend>
+
+        <div class="form-wrapper">
+          <label for="mentor">Nome do seu mentor <span>(só o primeio nome)</span></label>
+          <input type="text" id="mentor">
+        </div>
+      </div>
+    </fieldset>
+
+    <fieldset>
+      <div class="form-group">
+        <legend>Seus horários disponíveis</legend>
+
+        <h3>Primeira Mentoria</h3>
+        <div class="col-3">
+          <div>
+            <label for="data">Data</label>
+            <input type="date" id="data">
+          </div>
+
+          <div>
+            <label for="das">Das</label>
+            <input type="time" name="das">
+          </div>
+
+          <div>
+            <label for="ate">Até</label>
+            <input type="time" name="ate">
+          </div>
+        </div>
       </div>
 
-      <div>
-        <label for="email">Email</label>
-        <input type="email" id="email">
-      </div>
+      <div class="form-group">
+        <h3>Segunda Mentoria</h3>
+        <div class="col-3">
+          <div>
+            <label for="data">Data</label>
+            <input type="date" id="data">
+          </div>
 
-      <div>
-        <label for="password">Senha</label>
-        <input type="password" id="password">
+          <div>
+            <label for="das">Das</label>
+            <input type="time" name="das">
+          </div>
+
+          <div>
+            <label for="ate">Até</label>
+            <input type="time" name="ate">
+          </div>
+        </div>
       </div>
     </fieldset>
   </form>
-  
+  <footer>
+    <input form="my-form" type="submit" value="Salvar">
+  </footer>
 </body>
 </html>

@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
   font-family: sans-serif;
+  box-sizing: border-box;
 }
 
 body {
@@ -15,20 +16,146 @@ header {
   color: whitesmoke;
 }
 
+header h1 {
+  font-size: 48px;
+  margin-bottom: 26px;
+}
+
+header p {
+  font-size: 20px;
+  line-height: 26px;
+}
+
 header div {
-  max-width: 1082px;
+  max-width: 980px;
   margin: auto;
   padding-top: 60px;
 }
 
 form {
-  max-width: 1084px;
-  margin: auto;
+  position: relative;
+  top: -100px;
   
+  max-width: 980px;
+  margin: auto;
+  padding: 58px;
+  border-radius: 8px 8px 0px 0px;
+
   background-color: #ffffff;
-  height: 800px;
+  
 }
 
 fieldset {
-  padding: 8px;
+  display: flex;
+  flex-direction: column;
+
+  border: none;
+  margin-bottom: 35px;
 }
+
+fieldset legend {
+  border-bottom: 1px solid #E6E6F0;
+  width: 100%;
+
+  font-size: 24px;
+  font-weight: bold;
+  color: #535971;
+
+  padding-bottom: 12px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: row;
+  gap: 14px;
+
+}
+
+label {
+  font-size: 14px;
+  color: #4E4958;
+}
+
+label span {
+  color: #c9c4d4;
+  font-size: 12px;
+  padding-left: 4px;
+}
+
+.input-group div {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+input {
+  width: 100%;
+  height: 56px;
+  padding: 8px;
+  margin: 8px 0px 20px 0px;
+
+  border: 1px solid #E6E6F0;
+  background-color: #FAFAFC;
+  border-radius: 8px;
+
+  font-size: 18px;
+  color: #535971;
+} 
+
+fieldset h3 {
+  color: #535971;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.col-3 {
+  display: flex;
+  gap: 20px;
+}
+
+.col-3 div:nth-child(1) {
+  width: 100%;
+}
+
+.col-3 label, span {
+  font-size: 14px;
+}
+
+footer {
+  max-width: 980px;
+  height: 160px;
+  margin: auto;
+
+  position: relative;
+ 
+
+  background-color: #535971;
+  border-radius: 0px 0px 8px 8px;
+
+  bottom: 100px;
+  padding: 40px 64px;
+  text-align: center;
+}
+
+footer input {
+  background-color: #FF5374;
+
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+
+  border: none;
+  border-radius: 20px;
+}
+
+footer input:hover {
+  cursor: pointer;
+  background-color: #fa365d;
+}
+
