@@ -28,9 +28,9 @@ header p {
 
 main {
   display: grid;
-  grid-template-columns: repeat(3, 366px);
+  grid-template-columns: repeat(3, 370px);
   grid-template-rows: repeat(2, 440px);
-  gap: 86px;
+  gap: 60px 86px;
 
   justify-content: center;
 
@@ -45,6 +45,7 @@ main div {
 
 main img {
   width: 100%;
+  overflow: hidden;
 }
 
 div h2 {
