@@ -19,6 +19,7 @@ menu {
   justify-content: center;
   gap: 20px;
   margin-top: 40px;
+  flex-wrap: wrap;
 }
 
 menu a {
@@ -53,15 +54,15 @@ main {
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
 }
 
-.grid img {
+section > div > img {
   width: 100%;
+  display: block;
 }
 
-section > div {
-  height: 332px;
-}
+
 
 .apresentacao, .descricao{
   background-color:rgb(252, 252, 252) ;
@@ -69,7 +70,7 @@ section > div {
 
 .apresentacao, .vantagens{
   text-align: right;
-  padding: 90px 40px;
+  padding: 75px 40px;
   line-height: 22px;
 }
 
@@ -90,14 +91,34 @@ button {
 
   border: none;
   border-radius: 6px;
+
+  text-transform: uppercase;
 }
 
 .vantagens {
+  margin-top: 60px;
   color: #b6b6b6;
 
   text-transform: uppercase;
   font-size: 40px;
   line-height: 68px;
 }
+
+.descricao {
+  margin-top: -3px;
+  padding: 40px;
+}
+
+.descricao-item {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 10px 20px;
+}
+
+.descricao-item p {
+  grid-column: 2;
+}
+
+
 
 
